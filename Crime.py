@@ -1,11 +1,15 @@
 import pandas as pd
 import seaborn as sn
+<<<<<<< HEAD
 from matplotlib import gridspec
 import matplotlib.pyplot as plt
 import shapefile as shp
 
 import numpy as np
 
+=======
+import matplotlib.pyplot as plt
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
 # import argparse
 
 Crime = pd.read_csv("SouthAfricaCrimeStats_v2.csv")
@@ -18,7 +22,11 @@ Crimes_Province = Crime.groupby(['Province'])[list_Of_Years].sum()
 # print(Crimes_Province)
 Crimes_Category = Crime.groupby(['Category'])[list_Of_Years].sum()
 List_Of_Catogeries = Crimes_Category.transpose().columns
+<<<<<<< HEAD
 # print(List_Of_Catogeries)
+=======
+print(List_Of_Catogeries)
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
 
 CRT = Crimes_Category.transpose()
 CRT['index'] = CRT.index
@@ -30,12 +38,16 @@ n = 1
 for x in range(0, len(List_Of_Catogeries)):
     fg, ax = plt.subplots(nrows=1, ncols=1, figsize=(6, 2.5))
     for j in range(n):
+<<<<<<< HEAD
         # plt.subplot()
+=======
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
         sn.barplot(CRT['index'], CRT[List_Of_Catogeries[x]], color='red')
         ax.set_ylabel("Number of Crimes")
         ax.set_xlabel("Period")
         ax.set_xticklabels(CRT['index'], rotation=35)
         plt.title(List_Of_Catogeries[x * n + j])
+<<<<<<< HEAD
 # fig = plt.figure(figsize=(20, 8))
 # gs = gridspec.GridSpec(3, 5)
 # ax1 = plt.subplot(gs[1,0:3])
@@ -92,3 +104,20 @@ for shape in sf.shapeRecords():
     plt.scatter(x,y,alpha=.009)
 plt.show()
 # emd east
+=======
+
+    # print(CRT['index'])
+    print(CRT[List_Of_Catogeries[x]])
+Crimes_Province.plot(kind='bar', rot=25)
+plt.title('Crime per province')
+Crimes_Category[list_Of_Years].transpose().plot(kind='box', rot=90)
+plt.title('Crime per Category ')
+Crimes_Category[list_Of_Years].plot(kind='box', rot=30)
+plt.title('Crime per Years')
+Crimes_Category[list_Of_Years].transpose().plot(kind='line', rot=90)
+plt.legend(bbox_to_anchor=(1, 1), loc=2, borderaxespad=0.)
+plt.title('Crime per Category')
+print(Crime.corr())
+#Heatmap
+plt.show()
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897

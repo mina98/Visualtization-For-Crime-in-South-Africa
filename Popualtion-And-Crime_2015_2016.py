@@ -24,13 +24,17 @@ M=merGe.sort_values(by='Province')
 # print(M)
 merGe_Crimes_Province = M.groupby(['Province','Population'])['2015-2016'].sum()
 merGe_Crimes_Province.plot(kind='bar',rot=10)
+<<<<<<< HEAD
 plt.show()
+=======
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
 plt.title('Crime per province and Population')
 ###############################################################
 s=pd.DataFrame({'Crimes' : M.groupby(['Province','Population'])['2015-2016'].sum()}).reset_index()
 # f=M[].sum()
 print(s)
 s.plot(x='Population',y='Crimes')
+<<<<<<< HEAD
 
 plt.xlabel('Crime')
 plt.ylabel('Population')
@@ -45,4 +49,14 @@ plt.show()
 sns.heatmap(s.corr(), annot=True, fmt=".2f")
 plt.show()
 sns.heatmap(merGe.corr(), annot=True, fmt=".2f")
+=======
+plt.xlabel('Crime')
+plt.ylabel('Population')
+plt.title('Crime per Population')
+s.plot(x='Population',y='Crimes',kind='scatter')
+plt.title('Crime per Population')
+
+s.plot(x='Population',y='Crimes',kind='box',color='black',rot=10)
+print(s.corr())
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
 plt.show()

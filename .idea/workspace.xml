@@ -8,6 +8,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Visualtization_For_Crime_in_South_Africa_master$Crime.coverage" NAME="Crime Coverage Results" MODIFIED="1544273503124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Visualtization_For_Crime_in_South_Africa_master$Popualtion_And_Crime_2015_2016.coverage" NAME="Popualtion-And-Crime_2015_2016 Coverage Results" MODIFIED="1544270049200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -23,6 +24,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Crime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -31,15 +41,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Police_points.shp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-10239">
               <caret line="69" column="23" lean-forward="true" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+=======
+        <entry file="file://$PROJECT_DIR$/Popualtion-And-Crime_2015_2016.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/matplotlib/pyplot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
@@ -53,11 +74,23 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-837">
               <caret line="4025" column="40" selection-start-line="4025" selection-start-column="40" selection-end-line="4025" selection-end-column="40" />
+=======
+        <entry file="file://$PROJECT_DIR$/SouthAfricaCrimeStats_v2.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pandas/core/generic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97">
+              <caret line="6634" column="8" lean-forward="true" selection-start-line="6634" selection-start-column="8" selection-end-line="6634" selection-end-column="8" />
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/n.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -92,6 +125,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
               <caret line="3332" selection-start-line="3332" selection-end-line="3332" />
+=======
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pandas/core/frame.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123148">
+              <caret line="7334" selection-start-line="7334" selection-end-line="7334" />
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
             </state>
           </provider>
         </entry>
@@ -125,16 +164,24 @@
       <list>
         <option value="$PROJECT_DIR$/Population.py" />
         <option value="$PROJECT_DIR$/Popualtion-And-Crime.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/../DV section/plot.py" />
         <option value="$PROJECT_DIR$/n.py" />
+=======
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
         <option value="$PROJECT_DIR$/Popualtion-And-Crime_2015_2016.py" />
         <option value="$PROJECT_DIR$/Crime.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-25" />
     <option name="y" value="192" />
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -142,10 +189,29 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
+<<<<<<< HEAD
     <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+=======
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Dataset" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -174,7 +240,10 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+=======
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Crime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -184,7 +253,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Popualtion-And-Crime_2015_2016" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="Popualtion-And-Crime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
       <module name="Dataset" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,8 +269,12 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Popualtion-And-Crime_2015_2016.py" />
+=======
+      <option name="SCRIPT_NAME" value="C:\Users\mina\Desktop\Dataset\Popualtion-And-Crime_2015_2016.py" />
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,7 +283,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="n" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="Popualtion-And-Crime_2015_2016" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
       <module name="Dataset" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -218,8 +299,12 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/n.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Popualtion-And-Crime_2015_2016.py" />
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,7 +313,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="Population" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
       <module name="Dataset" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,12 +325,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../DV section" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../DV section/plot.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\mina\Desktop\Dataset\Crime.py" />
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,7 +359,10 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+=======
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
       <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/pyplot_three.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -276,9 +376,15 @@
       <list>
         <item itemvalue="Python.Crime" />
         <item itemvalue="Python.Popualtion-And-Crime_2015_2016" />
+<<<<<<< HEAD
         <item itemvalue="Python.n" />
         <item itemvalue="Python.plot" />
         <item itemvalue="Python.pyplot_three" />
+=======
+        <item itemvalue="Python.pyplot_three" />
+        <item itemvalue="Python.Popualtion-And-Crime" />
+        <item itemvalue="Python.Population" />
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +398,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543831104464</updated>
+<<<<<<< HEAD
       <workItem from="1544262337557" duration="9671000" />
     </task>
     <servers />
@@ -353,6 +460,53 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+=======
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60720134" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48772505" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/pyplot_three.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -364,6 +518,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/../DV section/plot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -381,6 +536,11 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/SouthAfricaCrimeStats_v2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123148">
@@ -395,6 +555,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/370853342/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -434,12 +595,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+=======
+    <entry file="file://$PROJECT_DIR$/Popualtion-And-Crime_2015_2016.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/shapefile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-20">
@@ -458,6 +626,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="24" column="79" lean-forward="true" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
+=======
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="6634" column="8" lean-forward="true" selection-start-line="6634" selection-start-column="8" selection-end-line="6634" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+>>>>>>> bf8a4ffdb170c3466eb6c2ceadaf4935c1e59897
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
