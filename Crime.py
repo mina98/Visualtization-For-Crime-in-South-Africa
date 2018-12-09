@@ -1,3 +1,4 @@
+# import plotly.plotly as py
 import pandas as pd
 import seaborn as sn
 from matplotlib import gridspec
@@ -9,13 +10,15 @@ import numpy as np
 # import argparse
 
 Crime = pd.read_csv("SouthAfricaCrimeStats_v2.csv")
+sf = shp.Reader("Police_bounds.shp")
+
 # print(Crime.head(10))
 # print(Crime.describe())
 list_Of_Years = ['2005-2006', '2006-2007', '2007-2008', '2008-2009',
                  '2009-2010', '2010-2011', '2011-2012',
                  '2012-2013', '2013-2014', '2014-2015', '2015-2016']
 Crimes_Province = Crime.groupby(['Province'])[list_Of_Years].sum()
-# print(Crimes_Province)
+print(Crimes_Province)
 Crimes_Category = Crime.groupby(['Category'])[list_Of_Years].sum()
 List_Of_Catogeries = Crimes_Category.transpose().columns
 # print(List_Of_Catogeries)
@@ -83,12 +86,19 @@ plt.show()
 sn.heatmap(Crime.corr(), annot=True, fmt=".2f")
 plt.show()
 
-sf = shp.Reader("Police_bounds.shp")
-plt.figure()
 for shape in sf.shapeRecords():
-    # print(shape.shape.points)
+    print(shape.shape.points)
     x = [i[0] for i in shape.shape.points[:]]
     y = [i[1] for i in shape.shape.points[:]]
-    plt.scatter(x,y,alpha=.009)
+    color=['red','blue']
+    plt.plot(x,y,alpha=.7,color='#006400')
+    # plt.legend(bbox_to_anchor=(1, 1), loc=2, borderaxespad=0.)
+
 plt.show()
 # emd east
+titles = list(Crime.columns)
+dates = titles[7:17]
+Crime[dates].plot(kind='scatter')
+plt.xticks(rotation=45)
+plt.title('Overall number of crimes commited for each year')
+plt.show()
