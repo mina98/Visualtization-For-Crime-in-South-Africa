@@ -83,8 +83,8 @@ plt.legend(bbox_to_anchor=(1, 1), loc=2, borderaxespad=0.)
 plt.title('Crime per Category')
 plt.show()
 
-sn.heatmap(Crime.corr(), annot=True, fmt=".2f")
-plt.show()
+# sn.heatmap(Crime.corr(), annot=True, fmt=".2f")
+# plt.show()
 
 for shape in sf.shapeRecords():
     print(shape.shape.points)
