@@ -30,22 +30,144 @@ CRT['index'] = CRT.index
 # print(CRT['index'])
 # print('#####################################################')
 n = 1
-for x in range(0, len(List_Of_Catogeries)):
-    fg, ax = plt.subplots(nrows=1, ncols=1, figsize=(6, 2.5))
+fg, ax = plt.subplots(nrows=2, ncols=2)
+axc =[(0,0),(0,1),(1,0),(1,1)]
+for x in range(0,4):
+
     for j in range(n):
         # plt.subplot()
-        sn.barplot(CRT['index'], CRT[List_Of_Catogeries[x]], color='red')
-        ax.set_ylabel("Number of Crimes")
-        ax.set_xlabel("Period")
-        ax.set_xticklabels(CRT['index'], rotation=35)
-        plt.title(List_Of_Catogeries[x * n + j])
-# fig = plt.figure(figsize=(20, 8))
-# gs = gridspec.GridSpec(3, 5)
-# ax1 = plt.subplot(gs[1,0:3])
-#
-# ax1.bar(CRT['index'], CRT[List_Of_Catogeries[0]])
-# ax1.plot(CRT['index'], CRT[List_Of_Catogeries[1]])
-# ax1.plot(CRT['index'], CRT[List_Of_Catogeries[2]])
+        sn.barplot(CRT['index'], CRT[List_Of_Catogeries[x]], color='red' , ax=ax[axc[x][0]][axc[x][1]])
+        ax[axc[x][0]][axc[x][1]].set_ylabel("Number of Crimes")
+        # ax.set_xlabel("Period")
+        # ax.set_xticklabels(CRT['index'], rotation=35)
+        ax[axc[x][0]][axc[x][1]].set_xticks([0,11])
+        ax[axc[x][0]][axc[x][1]].set_title(List_Of_Catogeries[x * n + j])
+        print("mean of "+List_Of_Catogeries[x * n + j]+" is"+str(CRT[List_Of_Catogeries[x]].mean()))
+        print("Variance of " + List_Of_Catogeries[x * n + j] + " is" + str(CRT[List_Of_Catogeries[x]].var()))
+        # ax[axc[x][0]][axc[x][1]].set_xticks(rotation='vertical')
+
+plt.show()
+
+fg, ax = plt.subplots(nrows=2, ncols=2)
+axc =[(0,0),(0,1),(1,0),(1,1)]
+x=0
+for y in range(4,8):
+
+    for j in range(n):
+        # plt.subplot()
+        sn.barplot(CRT['index'], CRT[List_Of_Catogeries[y]], color='red' , ax=ax[axc[x][0]][axc[x][1]])
+        ax[axc[x][0]][axc[x][1]].set_ylabel("Number of Crimes")
+        # ax.set_xlabel("Period")
+        # ax.set_xticklabels(CRT['index'], rotation=35)
+        # plt.title(List_Of_Catogeries[x * n + j])
+        ax[axc[x][0]][axc[x][1]].set_xticks([0,11])
+
+        ax[axc[x][0]][axc[x][1]].set_title(List_Of_Catogeries[x * n + j])
+        print("mean of "+List_Of_Catogeries[y * n + j]+" is"+str(CRT[List_Of_Catogeries[y]].mean()))
+        print("Variance of " + List_Of_Catogeries[y * n + j] + " is" + str(CRT[List_Of_Catogeries[y]].var()))
+    x=x+1
+plt.show()
+
+fg, ax = plt.subplots(nrows=2, ncols=2)
+axc =[(0,0),(0,1),(1,0),(1,1)]
+x=0
+
+ticks=['2005','2008','2011','2014']
+for y in range(8,12):
+
+    for j in range(n):
+        # plt.subplot()
+        sn.barplot(CRT['index'], CRT[List_Of_Catogeries[y]], color='red' , ax=ax[axc[x][0]][axc[x][1]])
+        ax[axc[x][0]][axc[x][1]].set_ylabel("Number of Crimes")
+        # ax.set_xlabel("Period")
+        ax[axc[x][0]][axc[x][1]].set_xticks([0,11])
+
+        # ax.set_xticklabels(CRT['index'], rotation=35)
+        # plt.title(List_Of_Catogeries[x * n + j])
+        ax[axc[x][0]][axc[x][1]].set_title(List_Of_Catogeries[x * n + j])
+
+        print("mean of "+List_Of_Catogeries[y * n + j]+" is"+str(CRT[List_Of_Catogeries[y]].mean()))
+        print("Variance of " + List_Of_Catogeries[y * n + j] + " is" + str(CRT[List_Of_Catogeries[y]].var()))
+    x=x+1
+
+plt.show()
+
+fg, ax = plt.subplots(nrows=2, ncols=2)
+axc =[(0,0),(0,1),(1,0),(1,1)]
+x=0
+for y in range(12,16):
+
+    for j in range(n):
+        # plt.subplot()
+        sn.barplot(CRT['index'], CRT[List_Of_Catogeries[y]], color='red' , ax=ax[axc[x][0]][axc[x][1]])
+        ax[axc[x][0]][axc[x][1]].set_ylabel("Number of Crimes")
+        # ax.set_xlabel("Period")
+        # ax.set_xticklabels(CRT['index'], rotation=35)
+        ax[axc[x][0]][axc[x][1]].set_xticks([0,11])
+
+        ax[axc[x][0]][axc[x][1]].set_title(List_Of_Catogeries[x * n + j])
+        print("mean of "+List_Of_Catogeries[y * n + j]+" is"+str(CRT[List_Of_Catogeries[y]].mean()))
+        print("Variance of " + List_Of_Catogeries[y * n + j] + " is" + str(CRT[List_Of_Catogeries[y]].var()))
+    x=x+1
+
+plt.show()
+fg, ax = plt.subplots(nrows=2, ncols=2)
+axc =[(0,0),(0,1),(1,0),(1,1)]
+x=0
+for y in range(16,20):
+
+    for j in range(n):
+        # plt.subplot()
+        sn.barplot(CRT['index'], CRT[List_Of_Catogeries[y]], color='red' , ax=ax[axc[x][0]][axc[x][1]])
+        ax[axc[x][0]][axc[x][1]].set_ylabel("Number of Crimes")
+        # ax.set_xlabel("Period")
+        # ax.set_xticklabels(CRT['index'], rotation=35)
+        ax[axc[x][0]][axc[x][1]].set_xticks([0,11])
+
+        ax[axc[x][0]][axc[x][1]].set_title(List_Of_Catogeries[x * n + j])
+        print("mean of "+List_Of_Catogeries[y * n + j]+" is"+str(CRT[List_Of_Catogeries[y]].mean()))
+        print("Variance of " + List_Of_Catogeries[y * n + j] + " is" + str(CRT[List_Of_Catogeries[y]].var()))
+    x=x+1
+
+plt.show()
+
+fg, ax = plt.subplots(nrows=2, ncols=2)
+axc =[(0,0),(0,1),(1,0),(1,1)]
+x=0
+for y in range(20,24):
+
+    for j in range(n):
+        # plt.subplot()
+        sn.barplot(CRT['index'], CRT[List_Of_Catogeries[y]], color='red' , ax=ax[axc[x][0]][axc[x][1]])
+        ax[axc[x][0]][axc[x][1]].set_ylabel("Number of Crimes")
+        # ax.set_xlabel("Period")
+        # ax.set_xticklabels(CRT['index'], rotation=35)
+        ax[axc[x][0]][axc[x][1]].set_xticks([0,11])
+
+        ax[axc[x][0]][axc[x][1]].set_title(List_Of_Catogeries[x * n + j])
+        print("mean of "+List_Of_Catogeries[y * n + j]+" is"+str(CRT[List_Of_Catogeries[y]].mean()))
+        print("Variance of " + List_Of_Catogeries[y * n + j] + " is" + str(CRT[List_Of_Catogeries[y]].var()))
+    x=x+1
+
+plt.show()
+
+fg, ax = plt.subplots(nrows=2, ncols=2)
+axc =[(0,0),(0,1),(1,0),(1,1)]
+x=0
+for y in range(24,27):
+
+    for j in range(n):
+        # plt.subplot()
+        sn.barplot(CRT['index'], CRT[List_Of_Catogeries[y]], color='red' , ax=ax[axc[x][0]][axc[x][1]])
+        ax[axc[x][0]][axc[x][1]].set_ylabel("Number of Crimes")
+        # ax.set_xlabel("Period")
+        # ax.set_xticklabels(CRT['index'], rotation=35)
+        ax[axc[x][0]][axc[x][1]].set_xticks([0,11])
+
+        ax[axc[x][0]][axc[x][1]].set_title(List_Of_Catogeries[x * n + j])
+        print("mean of "+List_Of_Catogeries[y * n + j]+" is"+str(CRT[List_Of_Catogeries[y]].mean()))
+        print("Variance of " + List_Of_Catogeries[y * n + j] + " is" + str(CRT[List_Of_Catogeries[y]].var()))
+    x=x+1
 
 plt.show()
 # print(CRT['index'])
@@ -78,16 +200,12 @@ Crimes_Category[list_Of_Years].plot(kind='box', rot=30)
 plt.title('Crime per Years')
 plt.show()
 
-Crimes_Category[list_Of_Years].transpose().plot(kind='line', rot=90)
-plt.legend(bbox_to_anchor=(1, 1), loc=2, borderaxespad=0.)
-plt.title('Crime per Category')
-plt.show()
 
 # sn.heatmap(Crime.corr(), annot=True, fmt=".2f")
 # plt.show()
 
 for shape in sf.shapeRecords():
-    print(shape.shape.points)
+    # print(shape.shape.points)
     x = [i[0] for i in shape.shape.points[:]]
     y = [i[1] for i in shape.shape.points[:]]
     color=['red','blue']
@@ -96,9 +214,9 @@ for shape in sf.shapeRecords():
 
 plt.show()
 # emd east
-titles = list(Crime.columns)
-dates = titles[7:17]
-Crime[dates].plot(kind='scatter')
-plt.xticks(rotation=45)
-plt.title('Overall number of crimes commited for each year')
-plt.show()
+# titles = list(Crime.columns)
+# dates = titles[7:17]
+# Crime[dates].plot(kind='scatter')
+# plt.xticks(rotation=45)
+# plt.title('Overall number of crimes commited for each year')
+# plt.show()
