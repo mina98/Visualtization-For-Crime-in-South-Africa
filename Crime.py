@@ -3,14 +3,14 @@ import pandas as pd
 import seaborn as sn
 from matplotlib import gridspec
 import matplotlib.pyplot as plt
+#to shapefile install pyshap
 import shapefile as shp
 
 import numpy as np
 import sys
 
 argv = sys.argv
-Crime = pd.read_csv("SouthAfricaCrimeStats_v2.csv")
-# sf = shp.Reader("Police_bounds.shp")
+Crime = pd.read_csv("Dataset/SouthAfricaCrimeStats_v2.csv")
 sf = shp.Reader("Police_bounds.shp")
 # print(Crime.head(10))
 # print(Crime.describe())

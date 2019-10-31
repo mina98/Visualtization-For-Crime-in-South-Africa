@@ -4,8 +4,8 @@ import seaborn as sb
 from scipy.stats import boxcox
 from sklearn import preprocessing
 import numpy as nm
-from sklearn.preproces5sing import scale
-df=pd.read_csv("SouthAfricaCrimeStats_v2.csv")
+# from sklearn.preproces5sing import scale
+df=pd.read_csv("Dataset/SouthAfricaCrimeStats_v2.csv")
 # dx=sb.distplot(df['2005-2006'],rug=True,hist=False,color='#505050')
 # dx.axvline(x=df['2005-2006'].mean(),color='#505050',linestyle='-')
 # plt.xlim(0,3500)

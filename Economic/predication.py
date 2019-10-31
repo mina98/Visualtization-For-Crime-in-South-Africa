@@ -9,7 +9,7 @@ import pandas as pd
 # creating file handler for
 # our example.csv file in
 # read mode
-file_handler = open("gold.csv", "r")
+file_handler = open("../Dataset/gold.csv", "r")
 
 # creating a Pandas DataFrame
 # using read_csv function that

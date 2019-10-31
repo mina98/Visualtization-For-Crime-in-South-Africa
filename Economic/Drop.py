@@ -18,8 +18,8 @@ argv = sys.argv
 # f=gold.drop(gold.index[12135:12708])
 #
 # print(f.tail())
-Repo = pd.read_csv('reporate.csv')
-Crime = pd.read_csv('../SouthAfricaCrimeStats_v2.csv')
+Repo = pd.read_csv('../Dataset/reporate.csv')
+Crime = pd.read_csv('../Dataset/SouthAfricaCrimeStats_v2.csv')
 Gold = pd.read_csv('gold.csv')
 list_Of_Years = ['2005-2006', '2006-2007', '2007-2008', '2008-2009',
                  '2009-2010', '2010-2011', '2011-2012',

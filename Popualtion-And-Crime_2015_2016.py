@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import sys
-Pop = pd.read_csv("ProvincePopulation.csv")
+Pop = pd.read_csv("Dataset/ProvincePopulation.csv")
 p = Pop.sort_values(by=['Province'])
 # print(p)
 # print(Pop.head(10))

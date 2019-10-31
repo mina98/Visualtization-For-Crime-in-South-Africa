@@ -9,7 +9,7 @@ from collections import OrderedDict
 # creating file handler for
 # our example.csv file in
 # read mode
-Gold = pd.read_csv('SouthAfricaCrimeStats_v2.csv')
+Gold = pd.read_csv('Dataset/SouthAfricaCrimeStats_v2.csv')
 list_Of_Years = [ '2014-2015', '2015-2016']
 
 targetname=['USD (AM)']

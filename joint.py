@@ -1,11 +1,10 @@
-
 import seaborn as sb
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import sys
-Pop = pd.read_csv("ProvincePopulation.csv")
+Pop = pd.read_csv("Dataset/ProvincePopulation.csv")
 p = Pop.sort_values(by=['Province'])
 # print(p)
 # print(Pop.head(10))
@@ -19,7 +18,7 @@ p = Pop.sort_values(by=['Province'])
 # plt.xlabel
 # plt.show()
 #
-Crime = pd.read_csv("SouthAfricaCrimeStats_v2.csv")
+Crime = pd.read_csv("Dataset/SouthAfricaCrimeStats_v2.csv")
 ###############################################################
 
 merGe = pd.merge(left=Pop, right=Crime, on=None, left_on='Province', right_on='Province')

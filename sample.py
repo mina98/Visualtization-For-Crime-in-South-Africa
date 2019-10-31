@@ -6,7 +6,7 @@ import seaborn as sb
 # Creating a population replace with your own:
 from matplotlib.pyplot import xlim
 
-df = pd.read_csv("SouthAfricaCrimeStats_v2.csv")
+df = pd.read_csv("Dataset/SouthAfricaCrimeStats_v2.csv")
 
 # Creating the list to store all the means of each sample:
 means1 = []

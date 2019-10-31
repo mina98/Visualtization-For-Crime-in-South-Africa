@@ -5,7 +5,7 @@ import seaborn as sb
 means1=[]
 means2=[]
 vars=[]
-df = pd.read_csv("SouthAfricaCrimeStats_v2.csv")
+df = pd.read_csv("Dataset/SouthAfricaCrimeStats_v2.csv")
 list_Of_Years = ['2005-2006', '2006-2007', '2007-2008', '2008-2009',
                  '2009-2010', '2010-2011', '2011-2012',
                  '2012-2013', '2013-2014', '2014-2015', '2015-2016']
