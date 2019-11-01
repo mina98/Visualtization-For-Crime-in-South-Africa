@@ -11,7 +11,7 @@ import sys
 
 argv = sys.argv
 Crime = pd.read_csv("Dataset/SouthAfricaCrimeStats_v2.csv")
-sf = shp.Reader("Police_bounds.shp")
+sf = shp.Reader("Dataset/Police_bounds.shp")
 # print(Crime.head(10))
 # print(Crime.describe())
 list_Of_Years = ['2005-2006', '2006-2007', '2007-2008', '2008-2009',
